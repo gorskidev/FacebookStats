@@ -1,0 +1,10 @@
+.najebometr {
+    display: block;
+    text-align: left;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: white;
+    float: left;
+    border-radius: .1rem;
+    box-shadow: 0 0 1px black ;
+}

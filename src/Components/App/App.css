@@ -1,0 +1,41 @@
+.header {
+  background: #4267b2;
+  margin-top: 0;
+  padding: 1rem;
+  
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 51rem;
+  padding: 2rem;
+  margin: 0 auto;
+  grid-gap: 1rem;
+}
+
+.container {
+  display: block;
+}
+
+.button {
+  display: block;
+
+  background: white;
+  border: none;
+  color: black;
+  box-shadow: 0px 0px 1px black;
+
+  padding: .5rem;
+  width: 10rem;
+  float: left;
+
+  cursor: pointer;
+
+
+  transition: .3s all;
+}
