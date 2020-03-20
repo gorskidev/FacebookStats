@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FacebookStats/static/css/main.6d6c209e.chunk.css",
-    "main.js": "/FacebookStats/static/js/main.0d490aa5.chunk.js",
-    "main.js.map": "/FacebookStats/static/js/main.0d490aa5.chunk.js.map",
+    "main.js": "/FacebookStats/static/js/main.fe015719.chunk.js",
+    "main.js.map": "/FacebookStats/static/js/main.fe015719.chunk.js.map",
     "runtime-main.js": "/FacebookStats/static/js/runtime-main.1b7f2c9a.js",
     "runtime-main.js.map": "/FacebookStats/static/js/runtime-main.1b7f2c9a.js.map",
     "static/js/2.1030dfea.chunk.js": "/FacebookStats/static/js/2.1030dfea.chunk.js",
     "static/js/2.1030dfea.chunk.js.map": "/FacebookStats/static/js/2.1030dfea.chunk.js.map",
     "index.html": "/FacebookStats/index.html",
-    "precache-manifest.c6799d022d8bb3340f75fbfbe4e2a87b.js": "/FacebookStats/precache-manifest.c6799d022d8bb3340f75fbfbe4e2a87b.js",
+    "precache-manifest.26a6367275a752edca59c29bee9005af.js": "/FacebookStats/precache-manifest.26a6367275a752edca59c29bee9005af.js",
     "service-worker.js": "/FacebookStats/service-worker.js",
     "static/css/main.6d6c209e.chunk.css.map": "/FacebookStats/static/css/main.6d6c209e.chunk.css.map",
     "static/js/2.1030dfea.chunk.js.LICENSE.txt": "/FacebookStats/static/js/2.1030dfea.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1b7f2c9a.js",
     "static/js/2.1030dfea.chunk.js",
     "static/css/main.6d6c209e.chunk.css",
-    "static/js/main.0d490aa5.chunk.js"
+    "static/js/main.fe015719.chunk.js"
   ]
 }
