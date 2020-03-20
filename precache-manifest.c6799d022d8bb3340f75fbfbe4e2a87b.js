@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f684f2b2ab29a9034b10a94875a82fef",
+    "revision": "0a4ee40d210bef491a17c413083ca727",
     "url": "/FacebookStats/index.html"
   },
   {
-    "revision": "e0c3ee3ec0ef5dd3cf47",
-    "url": "/FacebookStats/static/css/main.08ff50f2.chunk.css"
+    "revision": "ebfaaa806bd9042364b2",
+    "url": "/FacebookStats/static/css/main.6d6c209e.chunk.css"
   },
   {
     "revision": "681a58211aaef0e9ca80",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FacebookStats/static/js/2.1030dfea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0c3ee3ec0ef5dd3cf47",
-    "url": "/FacebookStats/static/js/main.28df1041.chunk.js"
+    "revision": "ebfaaa806bd9042364b2",
+    "url": "/FacebookStats/static/js/main.0d490aa5.chunk.js"
   },
   {
     "revision": "1800d376a09d09682514",
