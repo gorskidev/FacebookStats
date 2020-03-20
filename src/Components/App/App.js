@@ -189,10 +189,10 @@ class App extends React.Component {
                 getOccurrences={this.getOccurrences}/>
             </div>
           </div>
-          
+
           <div className="container">
-            <PostBox name={this.state.nfame}
-              imgSrc={this.state.imgfUrl}
+            <PostBox name={this.state.name}
+              imgSrc={this.state.imgUrl}
               post={this.state.currentPost}
               date={this.state.currentPostsDate}
               formatDate={this.formatDate}/>

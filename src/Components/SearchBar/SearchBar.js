@@ -57,8 +57,7 @@ class SearchBar extends React.Component {
             <div className="SearchResults">
                 <div className="filter-container">
                     <div className="filter"> 
-                        <div>Pokaż dla
-                        <select onChange={this.filterList} id="month">
+                        <div>Pokaż dla <select onChange={this.filterList} id="month">
                             {this.getMonths().map(month => <option value={month}>{month}</option>)}
                         </select>
                         </div>
