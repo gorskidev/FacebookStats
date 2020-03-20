@@ -177,6 +177,7 @@ class App extends React.Component {
       <div className="AppBox">
         <h1 className="header">Just You and I</h1>
         <div className="grid">
+
           <div className="container">
             <button className="button" onClick={this.handleClick}>
                 Następny, proszę!
@@ -188,24 +189,17 @@ class App extends React.Component {
                 getOccurrences={this.getOccurrences}/>
             </div>
           </div>
+          
           <div className="container">
-            <PostBox nfame={this.state.name}
-              imgSfrc={this.state.imgUrl}
+            <PostBox name={this.state.nfame}
+              imgSrc={this.state.imgfUrl}
               post={this.state.currentPost}
               date={this.state.currentPostsDate}
               formatDate={this.formatDate}/>
             
             <SearchBar posts={this.state.posts}
-              formatDate={this.formatDate}
               convertToArray={this.convertToArray}
               getDays={this.getDays}/>
-
-            <SearchResults posts={this.state.posts}
-              name={this.state.name}
-              imgSrc={this.state.imgUrl}
-              post={this.state.currentPost}
-              date={this.state.currentPostsDate}
-              formatDate={this.formatDate}/>
           </div>
         </div>
       </div>

@@ -16,14 +16,22 @@ class PostBox extends React.Component {
     }
 
     render() {
-        return (
-            <div className="postBox">
-                <img className="profilePicture" src={this.props.imgSrc} />
-                <a className="userName">{this.props.name}</a>
-                <a className="date">{this.formatDate()} • Najebolandia</a>
-                <Post post={this.props.post.content}/>
-            </div>
-        )
+        if(this.props.hasOwnProperty('formatDate')){
+            return (
+                <div className="postBox">
+                    <img className="profilePicture" src={this.props.imgSrc} />
+                    <a className="userName">{this.props.name}</a>
+                    <a className="date">{this.formatDate()} • Najebolandia</a>
+                    <Post post={this.props.post.content}/>
+                </div>
+            )
+        } else {
+            return (
+                <div className={this.props.className}>
+                    <Post post={this.props.post.content}/>
+                </div>
+            )
+        }
     }
 }
 

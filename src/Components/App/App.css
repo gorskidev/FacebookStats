@@ -11,7 +11,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   width: 51rem;
   padding: 2rem;
   margin: 0 auto;
@@ -38,4 +38,41 @@
 
 
   transition: .3s all;
+}
+
+@media only screen and (max-width: 480px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    padding: 0rem;
+    margin: 0 auto;
+    grid-gap: 1rem;
+  }
+
+  .button {
+    position: absolute;
+    float: none;
+    padding: 1rem;
+    border-radius: 10rem;
+    width: auto;
+    left: 50%;
+    top: 39.4rem;
+    transform: translateX(-50%)
+  }
+
+  .stats, .najebometr {
+    margin-bottom: 4rem !important;
+  }
+
+  .stats, .najebometr, .postBox, .ResultPosts, .filter-container {
+    max-width: 20rem;
+    margin: 0 auto;
+  }
+
+  .filter-container {
+    text-align: center;
+  }
+
+
 }
